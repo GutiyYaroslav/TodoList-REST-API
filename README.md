@@ -17,15 +17,15 @@ To use the obtained JWT token in all other endpoints, you need to add a "Authori
 This project is written using Spring Boot, Spring Security, Spring Data JPA, Spring WEB, and uses a MySQL database.
 
 
-| Endpoint                           | Functionality                                          |   |   |
-|------------------------------------|--------------------------------------------------------|---|---|
-| **Post** /api/v1/auth/register     | Signup (without jwt token)                             |   |   |
-| **Post** /api/v1/auth/authenticate | Login (without jwt token)                              |   |   |
-| **GET** /api/v1/todos              | Get all todos from current user (only with jwt token)  |   |   |
-| **Post** /todos                    | Create todo for current user (only with jwt token)     |   |   |
-| **GET**/todos/{todoId}             | Get a todo by id (only with jwt token)                 |   |   |
-| **PUT**/todos/{todoId}             | Update a todo by id (only with jwt token)              |   |   |
-| **DELETE**/todos/{todoId}          | Delete a todo by id (only with jwt token)              |   |   |
+| Endpoint                           | Functionality                                          |                                                                                                           |   |
+|------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---|
+| **Post** /api/v1/auth/register     | Signup (without jwt token)                             | {<br/>"firstname":"George",<br/>"lastname":"Bush",<br/>"email":"bush@gmail.com",<br/>"password":"1234"} } |   |
+| **Post** /api/v1/auth/authenticate | Login (without jwt token)                              |                                                                                                           |   |
+| **GET** /api/v1/todos              | Get all todos from current user (only with jwt token)  |                                                                                                           |   |
+| **Post** /todos                    | Create todo for current user (only with jwt token)     |                                                                                                           |   |
+| **GET**/todos/{todoId}             | Get a todo by id (only with jwt token)                 |                                                                                                           |   |
+| **PUT**/todos/{todoId}             | Update a todo by id (only with jwt token)              |                                                                                                           |   |
+| **DELETE**/todos/{todoId}          | Delete a todo by id (only with jwt token)              |                                                                                                           |   |
 
 
 
